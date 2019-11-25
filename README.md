@@ -1,4 +1,4 @@
-## communo
+## COMMUNO
 A website to learn more about communities in Calgary
  
 
