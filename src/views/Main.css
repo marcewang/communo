@@ -1,0 +1,98 @@
+
+.cardsDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-content: center; 
+}
+
+@media(max-width: 831px) {
+    .cardsDiv{
+    justify-content: center;
+    }
+}
+
+.blackDiv{
+    background-color: #000000;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: fit-content;
+    position: absolute;
+    margin-top: 10%;
+    color:white;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 2.5vh;
+}
+
+@media(max-width: 600px) {
+    .blackDiv{
+        font-size: 1.5vh;
+    }
+}
+
+.blackTitle{
+    background-color: #000000;
+    height: fit-content;
+    padding: 15px;
+    width: 25%;
+    position: absolute;
+    margin-top: 31%;
+    color:white;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+
+.toolBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000000;
+    height: 10px;
+}
+.account{
+    height:20px;
+}
+
+.leftBar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 4vh;
+    padding: 0   
+}
+.accountCircle{
+    height: 40px;
+}
+
+.image{
+    width:100%;
+}
+
+.communities{
+    padding: 5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.communities h3{
+    font-size: 7vh;
+    margin:auto;
+}
+
+@media(max-width: 600px) {
+    .communities h3{
+        font-size: 5vh;
+    }
+}
+
+.outerDiv{
+    width: 100%
+}

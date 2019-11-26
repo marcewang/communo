@@ -1,0 +1,6 @@
+.cardImage{
+   height: 180px;
+   width:230px;
+   overflow: hidden;
+   justify-content: center;
+}
